@@ -1,0 +1,28 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BESBackground from "../components/BESBackground.astro";
+import "../styles/global.css";
+
+const {
+  title = "Braden Queen",
+  description = "Electrical Engineering student focused on energy and connectivity",
+} = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <BESBackground brightness={0.7} speed={0.5} />
+    <div class="bg-dimmer"></div>
+    <Header />
+    <main class="container"><slot /></main>
+    <Footer />
+  </body>
+</html>

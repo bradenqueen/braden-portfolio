@@ -1,0 +1,858 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Braden Queen | Electrical Engineering"
+  description="Electrical Engineering student at Georgia Tech working on energy and connectivity systems"
+>
+  <!-- Hero Section -->
+  <section id="hero" class="section section-hero">
+    <div class="hero">
+      <div class="hero-content fade-in">
+        <p class="kicker">Electrical Engineering • Georgia Tech</p>
+        <h1>Building systems for reliable energy and better connectivity</h1>
+        <p class="hero-intro">
+          I care about practical engineering that improves access for real
+          communities. I focus on distributed energy, rural broadband, and
+          resilient infrastructure. I also lead student teams that ship things
+          in the real world.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="link-arrow" href="#contact">Get in touch →</a>
+        </div>
+        <div class="tags">
+          <span class="tag">Energy systems</span>
+          <span class="tag">Telecom</span>
+          <span class="tag">Infrastructure</span>
+        </div>
+      </div>
+      <figure class="hero-image fade-in fade-in-delay-1">
+        <img
+          alt="Portrait of Braden"
+          src="/assets/images/portrait.jpg"
+          class="avatar"
+        />
+      </figure>
+    </div>
+
+    <div class="highlights fade-in fade-in-delay-2">
+      <div class="highlight-card">
+        <div class="highlight-icon">⚡</div>
+        <h3>Leadership</h3>
+        <p>
+          Co-President of Georgia Tech Energy Club, organizing technical
+          projects and industry partnerships.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🔧</div>
+        <h3>Field Experience</h3>
+        <p>
+          Substation and transmission service work through TVA with safety,
+          reliability, and communication upgrades.
+        </p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">💡</div>
+        <h3>Builder Mindset</h3>
+        <p>
+          Hands-on projects that combine hardware, software, and systems
+          thinking to solve useful problems.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="section-header fade-in">
+      <span class="section-label">About</span>
+      <h2>Who I Am</h2>
+    </div>
+    <div class="about-content">
+      <div class="about-text fade-in">
+        <p>
+          I study Electrical Engineering at Georgia Tech. I care about
+          engineering that improves daily life. Growing up around rural
+          communities taught me how energy and connectivity shape opportunity.
+        </p>
+        <p>
+          Today I focus on distributed energy, grid-aware software ideas, and
+          practical telecom reliability. I am interested in work that blends
+          field execution with clean technical design.
+        </p>
+      </div>
+      <div class="skills-grid fade-in fade-in-delay-1">
+        <div class="skill-card">
+          <h4>Electrical & Energy</h4>
+          <ul>
+            <li>Power systems, SCADA, relays, digital protection</li>
+            <li>Substation operations and safety protocols</li>
+            <li>VHDL, Quartus, FPGA implementation</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Software & Platforms</h4>
+          <ul>
+            <li>Python, C, MIPS assembly, MATLAB</li>
+            <li>Windows, MacOS, Linux, ChromeOS</li>
+            <li>Autodesk Revit, Office 365, Maximo</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Communication</h4>
+          <ul>
+            <li>Technical writing and presentations</li>
+            <li>Team leadership and sponsor outreach</li>
+            <li>English, German (conversational)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="section-header fade-in">
+      <span class="section-label">Experience</span>
+      <h2>Where I've Worked</h2>
+    </div>
+    <div class="timeline fade-in" id="experience-timeline">
+      <div class="timeline-progress"></div>
+
+      <!-- Energy Club with nested roles -->
+      <div class="timeline-item timeline-parent">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Georgia Tech Energy Club</h3>
+          </div>
+          <span class="timeline-date">Aug 2023 – Present</span>
+          <p>
+            Student organization focused on energy industry engagement,
+            technical projects, and professional development.
+          </p>
+        </div>
+
+        <!-- Nested sub-roles -->
+        <div class="timeline-subitems">
+          <div class="timeline-subitem">
+            <div class="timeline-submarker"></div>
+            <div class="timeline-subcontent">
+              <h4>Co-President</h4>
+              <span class="timeline-date">Apr 2025 – Present</span>
+              <p>
+                Lead student projects and industry partnerships with GE Vernova
+                and Southern Company.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-submarker"></div>
+            <div class="timeline-subcontent">
+              <h4>VP of Communications</h4>
+              <span class="timeline-date">Apr 2024 – Apr 2025</span>
+              <p>
+                Managed internal and external communications, outreach to
+                industry professionals, and social media presence.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-submarker"></div>
+            <div class="timeline-subcontent">
+              <h4>SEC Conference Co-Chair</h4>
+              <span class="timeline-date">Aug 2023 – Apr 2024</span>
+              <p>
+                Co-managed the 2024 Southeastern Energy Conference including
+                outreach, logistics, and marketing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Electrical Engineering Intern</h3>
+            <span class="timeline-company">Tennessee Valley Authority</span>
+          </div>
+          <span class="timeline-date">May 2024 – Present</span>
+          <p>
+            Transmission Service role supporting system administration and
+            technical operations for TVA substations. Gained hands-on experience
+            with switches, relays, SCADA systems, DPUs, and converting I/O
+            modules to SEL DPAC for digital protection. Facilitated TDP T-1 card
+            hardware replacements with Fujitsu 4100 systems and Ciena 3900
+            Ethernet transports.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>B.R.A.V.E Peer Educator</h3>
+            <span class="timeline-company">Georgia Tech</span>
+          </div>
+          <span class="timeline-date">Aug 2023 – Present</span>
+          <p>
+            Educating and empowering Georgia Tech students to prevent sexual
+            violence through bystander intervention, healthy communication, and
+            consent education.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Technology Specialist</h3>
+            <span class="timeline-company"
+              >Walker County Board of Education</span
+            >
+          </div>
+          <span class="timeline-date">Mar 2023 – Aug 2023</span>
+          <p>
+            Managed educational technology for 15 schools serving 8,500 students
+            in a one-to-one device program. Led the transition to paperless
+            enrollment and digital student information cards.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section-header fade-in">
+      <span class="section-label">Projects</span>
+      <h2>What I've Built</h2>
+    </div>
+    <div class="projects-grid fade-in">
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Piezoelectric Sidewalk</h3>
+          <div class="project-tags">
+            <span class="tag tag-sm">Energy</span>
+            <span class="tag tag-sm">Hardware</span>
+          </div>
+        </div>
+        <p>
+          Interactive glass tiles that harvest energy and power a public data
+          display. Led coordination across teams and advisors.
+        </p>
+      </article>
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Solar Collapsible Array</h3>
+          <div class="project-tags">
+            <span class="tag tag-sm">Solar</span>
+            <span class="tag tag-sm">Power</span>
+          </div>
+        </div>
+        <p>
+          Portable solar cart revival. Work includes storage recovery,
+          electrical checks, wiring improvements, and a clean plan for campus
+          use.
+        </p>
+      </article>
+      <article class="project-card">
+        <div class="project-header">
+          <h3>EnergyHack at Georgia Tech</h3>
+          <div class="project-tags">
+            <span class="tag tag-sm">Leadership</span>
+            <span class="tag tag-sm">Community</span>
+          </div>
+        </div>
+        <p>
+          Student hackathon on energy and sustainability with three tracks.
+          Built partnerships, logistics, and a long-term plan for growth.
+        </p>
+      </article>
+      <article class="project-card">
+        <div class="project-header">
+          <h3>Grid Data Ideas</h3>
+          <div class="project-tags">
+            <span class="tag tag-sm">Data</span>
+            <span class="tag tag-sm">Infrastructure</span>
+          </div>
+        </div>
+        <p>
+          Exploring simple tools for equipment status, project signals, and
+          procurement visibility. Focus on clear value for lenders and EPCs.
+        </p>
+      </article>
+      <article class="project-card">
+        <div class="project-header">
+          <h3>ACE Mentor Program</h3>
+          <div class="project-tags">
+            <span class="tag tag-sm">Mentorship</span>
+            <span class="tag tag-sm">Engineering</span>
+          </div>
+        </div>
+        <p>
+          LaFayette High School team member in the Architecture, Construction,
+          and Engineering program. Strengthened project management skills while
+          leading specific project areas and exceeding requirements.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-contact">
+    <div class="section-header fade-in">
+      <span class="section-label">Contact</span>
+      <h2>Let's Connect</h2>
+    </div>
+    <div class="contact-content fade-in">
+      <p>
+        Want to talk about energy systems, rural connectivity, or applied
+        engineering projects? I'm open to conversations and collaboration.
+      </p>
+      <div class="contact-actions">
+        <a class="btn btn-lg" href="mailto:braden@bradenqueen.com">Email Me</a>
+        <a
+          class="btn btn-outline"
+          href="https://www.linkedin.com/in/bradenqueen"
+          target="_blank"
+          rel="noopener">LinkedIn</a
+        >
+        <a class="btn btn-outline" href="/Braden_Queen_Resume.pdf">Resume</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Section Layout */
+  .section {
+    padding: 80px 0;
+    scroll-margin-top: 80px;
+  }
+
+  .section-hero {
+    padding-top: 40px;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .section-label {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+  }
+
+  .section-header h2 {
+    font-size: 2.2rem;
+    margin: 0;
+    background: linear-gradient(135deg, var(--text) 0%, var(--muted) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Hero */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: 900px) {
+    .hero {
+      grid-template-columns: 1.3fr 0.7fr;
+    }
+  }
+
+  .hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-intro {
+    font-size: 1.1rem;
+    color: var(--muted);
+    margin-bottom: 24px;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+
+  .link-arrow {
+    color: var(--link);
+    font-weight: 500;
+    transition: transform 0.2s;
+  }
+
+  .link-arrow:hover {
+    transform: translateX(4px);
+    text-decoration: none;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .avatar {
+    width: 220px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid var(--border);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Highlights */
+  .highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .highlight-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    transition:
+      transform 0.3s,
+      border-color 0.3s;
+  }
+
+  .highlight-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+  }
+
+  .highlight-icon {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .highlight-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+  }
+
+  .highlight-card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /* About */
+  .about-content {
+    display: grid;
+    gap: 40px;
+  }
+
+  .about-text {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-text p {
+    font-size: 1.1rem;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .skill-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+  }
+
+  .skill-card h4 {
+    color: var(--accent);
+    margin: 0 0 16px;
+    font-size: 1rem;
+  }
+
+  .skill-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-card li {
+    color: var(--muted);
+    font-size: 0.95rem;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .skill-card li:last-child {
+    border-bottom: none;
+  }
+
+  /* Timeline */
+  .timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 30px;
+  }
+
+  /* Static background line */
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 14px;
+    bottom: 14px;
+    width: 2px;
+    background: var(--border);
+  }
+
+  /* Animated progress line */
+  .timeline-progress {
+    position: absolute;
+    left: 11px;
+    top: 14px;
+    width: 2px;
+    height: 0;
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent) 100%);
+    transition: height 0.1s ease-out;
+    z-index: 1;
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-bottom: 32px;
+  }
+
+  .timeline-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .timeline-marker {
+    position: absolute;
+    left: -24px;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--border);
+    border: 3px solid var(--bg);
+    box-shadow: 0 0 0 2px var(--border);
+    transition:
+      background 0.3s,
+      box-shadow 0.3s;
+    z-index: 2;
+  }
+
+  .timeline-item.is-visible .timeline-marker {
+    background: var(--accent);
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+
+  .timeline-content {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+  }
+
+  .timeline-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+  }
+
+  .timeline-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .timeline-company {
+    color: var(--accent);
+    font-size: 0.95rem;
+  }
+
+  .timeline-date {
+    display: block;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+  }
+
+  .timeline-content p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  /* Nested sub-items */
+  .timeline-subitems {
+    margin-top: 16px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .timeline-subitems::before {
+    display: none;
+  }
+
+  .timeline-subitem {
+    position: relative;
+    padding-left: 24px;
+    padding-bottom: 20px;
+  }
+
+  .timeline-subitem:last-child {
+    padding-bottom: 0;
+  }
+
+  .timeline-submarker {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--card);
+    border: 2px solid var(--border);
+    transition:
+      border-color 0.3s,
+      background 0.3s;
+  }
+
+  .timeline-subitem.is-visible .timeline-submarker {
+    border-color: var(--accent);
+    background: var(--accent);
+  }
+
+  .timeline-subcontent {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+  }
+
+  .timeline-subcontent h4 {
+    margin: 0 0 2px;
+    font-size: 1rem;
+    color: var(--text);
+  }
+
+  .timeline-subcontent .timeline-date {
+    margin-bottom: 8px;
+  }
+
+  .timeline-subcontent p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  /* Projects */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .project-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    transition:
+      transform 0.3s,
+      border-color 0.3s;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+  }
+
+  .project-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .project-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .project-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .tag-sm {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+  }
+
+  .project-card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  /* Contact */
+  .section-contact {
+    text-align: center;
+  }
+
+  .contact-content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .contact-content p {
+    font-size: 1.1rem;
+    color: var(--muted);
+    margin-bottom: 32px;
+  }
+
+  .contact-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn-lg {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+
+  .btn-outline {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+  }
+
+  .btn-outline:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Animations */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+      opacity 0.6s ease-out,
+      transform 0.6s ease-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .fade-in-delay-1 {
+    transition-delay: 0.15s;
+  }
+  .fade-in-delay-2 {
+    transition-delay: 0.3s;
+  }
+</style>
+
+<script>
+  // Intersection Observer for fade-in animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: "0px 0px -50px 0px",
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll(".fade-in").forEach((el) => {
+    observer.observe(el);
+  });
+
+  // Timeline scroll animation
+  const timeline = document.getElementById("experience-timeline");
+  const timelineProgress = timeline?.querySelector(
+    ".timeline-progress",
+  ) as HTMLElement | null;
+  const timelineItems = timeline?.querySelectorAll(".timeline-item");
+  const timelineSubitems = timeline?.querySelectorAll(".timeline-subitem");
+
+  function updateTimelineProgress() {
+    if (!timeline || !timelineProgress) return;
+
+    const timelineRect = timeline.getBoundingClientRect();
+    const timelineTop = timelineRect.top;
+    const timelineHeight = timelineRect.height;
+    const viewportHeight = window.innerHeight;
+
+    // Calculate how far through the timeline we've scrolled
+    const triggerPoint = viewportHeight * 0.6; // Trigger at 60% of viewport
+    const progressStart = triggerPoint - timelineTop;
+    const progress = Math.max(0, Math.min(1, progressStart / timelineHeight));
+
+    // Update progress line height
+    const maxHeight = timelineHeight - 16; // Account for top/bottom padding
+    timelineProgress.style.height = `${progress * maxHeight}px`;
+
+    // Update timeline item visibility
+    timelineItems?.forEach((item) => {
+      const itemRect = item.getBoundingClientRect();
+      const itemTrigger = itemRect.top < triggerPoint;
+      item.classList.toggle("is-visible", itemTrigger);
+    });
+
+    // Update subitem visibility
+    timelineSubitems?.forEach((item) => {
+      const itemRect = item.getBoundingClientRect();
+      const itemTrigger = itemRect.top < triggerPoint;
+      item.classList.toggle("is-visible", itemTrigger);
+    });
+  }
+
+  // Run on scroll and initially
+  window.addEventListener("scroll", updateTimelineProgress, { passive: true });
+  updateTimelineProgress();
+</script>
